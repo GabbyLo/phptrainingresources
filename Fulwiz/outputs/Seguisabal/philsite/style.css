@@ -1,0 +1,52 @@
+th
+{
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+    font-family: tahoma;
+    
+}
+h1
+{
+    color: green;
+    background-image: url(images.jfif);
+    font-size: 50px;
+    font-family: tahoma;
+    
+}
+td
+{
+    text-align: center;
+    
+}
+body
+{
+   width: 100%;
+   background-color: ghostwhite;
+   
+}
+table, th, td 
+{
+    border: 1px solid black;
+    table-layout: auto;
+}
+
+table
+{      
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even)
+{
+    background-color: #ccc;
+}
+
+form
+{
+    display: inline-break;
+    font-size: 12px;
+    font-family: tahoma;
+    text-align: left;
+    margin: 0 auto;
+}
